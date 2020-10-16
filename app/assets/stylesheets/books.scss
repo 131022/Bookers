@@ -1,0 +1,119 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body {
+  background-color:#fff;
+  color:#333;
+  font-family:verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+}
+
+table {
+  margin-left: 5px;
+  border-collapse: collapse;
+}
+
+h1 {
+  display: block;
+  font-size: 26px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 13px;
+  margin-block-end: 13px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p{
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 13px;
+line-height: 18px;
+margin: 33px
+}
+
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+}
+
+th {
+ padding-bottom: 5px;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+
+}
+
+.heading {
+  color: black;
+  font-weight: 100;
+}
+
+.indextitle {
+  margin-bottom: 10px;
+}
+
+.New {
+  font-size: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.table {
+  display: table;
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+
+.edit_show a {
+  color: black;
+}
+
+.back {
+  color: black;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover{
+color: white;
+background-color: black;
+}
+
